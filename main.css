@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(29sjts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Indie Flower', cursive;
+    color: RGB(255,80,0)
+}
+
+/* The following are all ids */
+
+#h1a {
+    font-size: 180px;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+#h1b {
+    font-size: 75px;
+    margin-top: 150px;
+    
+}
+
+#p1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+/* End of ids */
