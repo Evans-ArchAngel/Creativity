@@ -66,51 +66,51 @@ div:hover{
     background: rgba(41, 128, 185,0.8);
     width: 100%;
     height: 85px;
-    position:fixed;
-    top:0;
-    left:0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #write{
-    position:fixed; right:660px;
+    position: fixed; right: 660px;
     height: 85px;
     width: 130px;
-    top:0;
+    top: 0;
 }
 
 #photo{
-    position:fixed; right: 440px;
+    position: fixed; right: 440px;
     height: 85px;
     width: 220px;
-    top:0;
+    top: 0;
 }
 
 #design{
-    position:fixed; right: 220px;
+    position: fixed; right: 220px;
     height: 85px;
     width: 220px;
-    top:0;
+    top: 0;
 }
 
 #dev{
-    position:fixed; right:0;
+    position: fixed; right: 0;
     height: 85px;
     width: 220px;
-    top:0;
+    top: 0;
 }
 
 /* End of ids */
 /* Clases*/
 
 .textdiv{
-    position:fixed;
-    right:0;
-    top:17px;
+    position: fixed;
+    right: 0;
+    top: 17px;
     font-size: 50px;
 }
 
 .icon-image{
-    position:fixed;
+    position: fixed;
     width: 170px;
     left: 30px;
     top: 10px;
