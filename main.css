@@ -10,17 +10,22 @@ body {
     color: RGB(255,80,0)
 }
 
+a {
+    text-decoration:none;
+    position:fixed;
+    top: 20px;
+    color: rgb(200,200,200);
+}
+
+div:hover{
+    background: rgba(1, 88, 145,0.8);
+}
+
 @font-face {
     font-family: 'Mathilde';
     font-style: normal;
     font-weight: normal;
     src: local('Mathilde'), url('mathilde.woff') format('woff');
-}
-
-#td1 {
-    background: rgb(41, 128, 185);
-    border-left: 1px solid RGB(151,144,138);
-    border-right: 1px solid RGB(151,144,138);
 }
 
 /* Ids */
@@ -66,34 +71,6 @@ body {
     left:0;
 }
 
-/* End of ids */
-/* Clases*/
-
-.textdiv{
-    position:fixed;
-    right:0;
-    top:17px;
-    font-size: 50px;
-}
-
-.icon-image{
-    position:fixed;
-    width: 170px;
-    left: 30px;
-    top: 10px;
-}
-
-a {
-    text-decoration:none;
-    position:fixed;
-    top: 20px;
-    color: rgb(200,200,200);
-}
-
-div:hover{
-    background: rgba(21, 108, 165,0.8);
-}
-
 #write{
     position:fixed; right:660px;
     height: 85px;
@@ -120,4 +97,21 @@ div:hover{
     height: 85px;
     width: 220px;
     top:0;
+}
+
+/* End of ids */
+/* Clases*/
+
+.textdiv{
+    position:fixed;
+    right:0;
+    top:17px;
+    font-size: 50px;
+}
+
+.icon-image{
+    position:fixed;
+    width: 170px;
+    left: 30px;
+    top: 10px;
 }
