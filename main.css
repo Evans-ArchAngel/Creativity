@@ -11,13 +11,6 @@ body {
     text-shadow: 1px 1px 2px black; 
 }
 
-a {
-    text-decoration:none;
-    position:fixed;
-    top: 20px;
-    color: rgb(200,200,200);
-}
-
 @font-face {
     font-family: 'Mathilde';
     font-style: normal;
@@ -112,7 +105,7 @@ div:hover{
 
 #p1 {
     font-size: 150px;
-    margin-top: 190px;
+    margin-top: 180px;
     margin-bottom: 0px;
 }
 
@@ -126,7 +119,6 @@ div:hover{
     text-align: left;
     font-size: 60px;
     margin-bottom: 5px;
-    
 }
 
 #p3 {
