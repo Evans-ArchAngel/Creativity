@@ -1,13 +1,13 @@
 /* direct css, no ids/classes */
 
 body {
-    background: url(background.jpg);
+    background: url(markus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
     background-attachment: fixed;
     font-family: mathilde;
-    color: RGB(255,80,0)
+    color: RGB(220,220,220)
 }
 
 a {
