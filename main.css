@@ -28,38 +28,18 @@ div:hover{
     src: local('Mathilde'), url('mathilde.woff') format('woff');
 }
 
-/* Ids */
+/* nav */
 
-#p1 {
-    font-size: 150px;
-    margin-top: 190px;
-    margin-bottom: 0px;
+a {
+    text-decoration:none;
+    position:fixed;
+    top: 20px;
+    color: rgb(200,200,200);
 }
 
-#p2 {
-    font-size: 70px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#h1a{
-    text-align: left;
-    font-size: 60px;
-    margin-bottom: 5px;
-    
-}
-
-#p3 {
-    margin-top: 0px;
-    font-size: 40px;
-    text-align: left;
-    padding-right: 50%;
-}
-
-#section1 {
-    padding-top: 0px;
-    margin-top: 50px;
-    text-align: center;
+div:hover{
+    background: rgba(1, 88, 145,0.8);
+    transition: 0.4s ease-in-out;
 }
 
 #navtable {
@@ -99,8 +79,8 @@ div:hover{
     top: 0;
 }
 
-/* End of ids */
-/* Clases*/
+/* End of nav ids */
+/* nav Clases*/
 
 .textdiv{
     position: fixed;
@@ -115,3 +95,40 @@ div:hover{
     left: 30px;
     top: 10px;
 }
+
+/* nav end*/
+/* Ids */
+
+#p1 {
+    font-size: 150px;
+    margin-top: 190px;
+    margin-bottom: 0px;
+}
+
+#p2 {
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#h1a{
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 5px;
+    
+}
+
+#p3 {
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: left;
+    padding-right: 50%;
+}
+
+#section1 {
+    padding-top: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* End if ids */
